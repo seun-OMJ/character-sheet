@@ -72,10 +72,10 @@ Character sheets are defined by the following high-level concepts
 7. Implement a maximum on all attributes of 70. For example, if a character has 20 strength and 10 for all other attributes, they must decrease one before they can increase another
 8. Add the ability to edit multiple characters simultaneously with the same rules above
 9. Add a Skill Check section. This represents a character's attempt to perform an action
-    - the character is successful if they meet or exceed the DC of the skill check. Add the total skill to a random number between 1 and 20 inclusive, if this meets or exceeds the DC the skill check is successful, otherwise it's a failure
+    - the character is successful if they meet or exceed the DC (see below) of the skill check. Add the total skill to a random number between 1 and 20 inclusive, if this meets or exceeds the DC the skill check is successful, otherwise it's a failure
     - Add the following controls to the UI
-      - skill: a dropdown to specify what skill we're using in the check
-      - DC: The minimum value the character must meet to succeed
+      - skill: a dropdown to specify what skill we're using in the check, see `SKILL_LIST`
+      - DC: An input that collects a number. The minimum value the character must meet to succeed
       - Roll: a button that will trigger the random number generation
     - When the Roll button is clicked, display the following
       - What the random number generated was
