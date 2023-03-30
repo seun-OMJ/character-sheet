@@ -18,3 +18,7 @@ npm i
 ```
 npm start
 ```
+
+# Submitting your code
+- Make sure your app can be set up and run via the following two commands: `npm i` and `npm start`
+- Email the link to this new public repository to coding-exercie@policyme.com
