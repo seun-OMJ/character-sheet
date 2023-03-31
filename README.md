@@ -21,7 +21,7 @@ npm start
 
 # Submitting your code
 - Make sure your app can be set up and run via the following two commands: `npm i` and `npm start`
-- Email the link to this new public repository to coding-exercie@policyme.com
+- Email the link to this new public repository to coding-exercise@policyme.com
 
 # Instructions
 
@@ -36,6 +36,8 @@ Please spend NO MORE THAN 2 hours on this. We don’t expect all requirements to
 Please view this short video of a partial implementation of the features below to give you an idea of what we’re asking for: https://www.loom.com/share/c8185dd2ac204d3e94fb851afe87cda3
 
 Styling is not important, so long as the JS functionality is present and usable.
+
+The 2 hours begins once you've read these instructions and run the application.
 
 ## What is a character sheet?
 
