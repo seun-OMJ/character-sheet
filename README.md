@@ -33,7 +33,7 @@ The goal is to see some of your code in the context of this problem, if things l
 
 Please spend NO MORE THAN 2 hours on this. We don’t expect all requirements to be completed, and are more interested in your approach to the project and how you’re solving problems than the output at the end of this 2-hour limit.
 
-Please view this short video of a partial implementation of the features below to give you an idea of what we’re asking for: https://www.loom.com/share/c8185dd2ac204d3e94fb851afe87cda3
+Please view this short video of a partial implementation of the features below to give you an idea of what we’re asking for: https://www.loom.com/share/3afa00385d2d4fbc9720b88360036a54
 
 Styling is not important, so long as the JS functionality is present and usable.
 
@@ -71,6 +71,8 @@ Character sheets are defined by the following high-level concepts
     - for a character with 12 dexterity may look like `Acrobatics - points: 3 [+] [-] modifier (Dex): 2 total: 5`
 6. Save the character(s) to an API so they can be retrieved when the app starts next time. 
     - Make a post request with a JSON payload to https://recruiting.verylongdomaintotestwith.ca/api/{{github_username}}/character to save data, and a get request to https://recruiting.verylongdomaintotestwith.ca/api/{{github_username}}/character to retrieve the data. It will accept any valid JSON blob and return the most recent version
+    - for example, if your github username is mjohnston, you would use https://recruiting.verylongdomaintotestwith.ca/api/{mjohnston}/character (include the curly braces)
+    - you must include a content-type header of application/json for the post to be accepted 
 7. Implement a maximum on all attributes of 70. For example, if a character has 20 strength and 10 for all other attributes, they must decrease one before they can increase another
 8. Add the ability to edit multiple characters simultaneously with the same rules above
 9. Add a Skill Check section for each character. This represents a character's attempt to perform an action
