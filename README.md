@@ -4,6 +4,7 @@ React coding test
 # Create a repository from this template
 - Click on `Use this template` dropdown on this repo page.
 - select `Create a new repository`
+- Under Owner, use your personal account and **NOT** `policyme-recruiting`
 - Write a name of the repo as `recruiting-webapp-character`
 - Select `Public` as visibility
 - Click `Create repository`
