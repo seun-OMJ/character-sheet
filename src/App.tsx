@@ -4,7 +4,7 @@ import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from './consts.js';
 
 
 function App() {
-  const [num, setNum] = useState(0);
+  const [num, setNum] = useState<number>(0);
   return (
     <div className="App">
       <header className="App-header">
