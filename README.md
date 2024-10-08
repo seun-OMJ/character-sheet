@@ -20,6 +20,10 @@ npm i
 npm start
 ```
 
+# Typescript
+
+Typescript has been added to this project. It is setup to be optional. You are not required to use it. It has been added for those who prefer developing with Typescript over Javascript.
+
 # Submitting your code
 - Make sure your app can be set up and run via the following two commands: `npm i` and `npm start`
 - Reply to the coding exercise email you received from our team with the link to this new public repository.
